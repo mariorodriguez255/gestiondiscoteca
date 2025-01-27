@@ -5,6 +5,7 @@ public class Guest {
     private String name;
     private int age;
     private boolean hasReservation;
+    public Object se;
     public Guest(String dni, String name, int age, boolean hasReservation) {
         this.dni = dni;
         this.name = name;
